@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper Link Practice</title>
+</head>
+<body>
+    <a href="http://ProgrammingAdvices.com" title="To learn more about this website">click here</a>
+    <br>
+    <p>
+        TO GO TO PROGRAMMING ADVICES WEBSITE<a href="http://ProgrammingAdvices.com" title="Learn programming in right way"> click here </a>
+    </p><br>
+    <p>
+        This Link will Open in the new tab leaving tis tab open<a href="http://ProgrammingAdvices.com" title="HTML Course" Target="_blank"> try</a>
+    </p>
+
+    <div align="center">
+        <p>
+            This photo will open the website in new tab
+        <a href="http://ProgrammingAdvices.com" target="_blank" title="The right way">
+            <img src="d:\HTML Practice1\Programming Advices Logo.png" alt="Learn the right way" height="150px" width="150px">
+        </a>
+        </p>
+    </div>
+
+    <h2>Relative URLs</h2>
+    <b>Linking to page relative to this page in the project:</b>
+    <p>Go To page2 <a href="Page2.html">here</a>.</p>
+    <p>Go To page3 <a href="page3.html">here</a>.</p>
+
+    <h2>Linking Email Address:</h2>
+    <p>
+        Email Us at <a href="mailto:support@example.com" >support@example.com</a>
+    </p>
+
+    <b>Advanced Usage of mailto:</b>
+    <p>
+        Email Us at <a href="mailto:example@example.com??cc=another@example.com&bc=secret@example.com&subject=Greetings&body=Hithere,">Send a detailed email</a>
+    </p>
+    
+    <b>Linking to Phone number</b>
+    <p><a href="tel:+1234567890" title="Call Us Now">Call Us</a></p>
+
+    <p>
+        You Can DownLoad document <a href="c:\Users\smart shop\AppData\Roaming\Microsoft\Windows\Network Shortcuts\Rational Model Norhan.pdf" download title="Download college assignmet.pdf">DownLoad Assignment</a>
+    </p>
+    <p>
+        You can download compressed file<a href="c:\Users\smart shop\AppData\Roaming\Microsoft\Windows\Network Shortcuts\Rational Model Norhan.rar" download title="Compressd file">Download Compressed File</a>
+    </p>
+
+    <h2 id="top">Bookmarks amd Internal Links Example</h2>
+    <p><a href="#section 1"> Go to section 1</a></p>
+    <p><a href="#section 2"> Go to section 2</a></p>
+    <p><a href="#section 3"> Go to setion 3</a></p>
+    <div style="height : 600px;">
+        <h2 id="section 1"> section 1</h2>
+        <p>This content of section 1.</p>
+        <p>
+            In a village cradled by endless fog, a single lantern glowed every night on the hill. Old Mara, its keeper, whispered that it held the dreams of those long gone. Each evening, she polished its glass, her hands trembling but sure. One night, a boy named Eli asked, “What happens if it goes out?” Mara only smiled, her eyes distant.
+        </p>
+        <p><a href="#top"> Back to top</a></p>
+    </div>
+
+    <div style="height:600px">
+        <h2 id="section 2"> section 2</h2>
+        <p>This is content of section 2.</p>
+        <p>
+            Lena found the sparrow in her grandfather’s attic, its brass wings tarnished but intact. A key jutted from its back. She wound it, and the bird whirred to life, hopping across the floor, its eyes glinting like tiny stars. It sang a melody her grandfather used to hum.
+        </p>
+        <p><a href="#top"> Back to top</a></p>
+    </div>
+
+    <div style="height:600px">
+        <h2 id="section 3"> section 3</h2>
+        <p>This is content of section 3.</p>
+        <p>
+            Tarek wandered the dunes, parched and lost, when he saw it: a wooden door standing alone in the sand. No walls, no frame—just a door. He circled it, skeptical, but curiosity won. He knocked. Silence. He turned the knob, and cool air rushed out, carrying the scent of rain.
+        </p>
+        <p><a href="#top">Back to top</a></p>
+    </div>
+
+    <h1>Button as Link</h1>
+    <p>Click the button below to visit ProgrammingAdvices.com:</p>
+    <p>
+        <button onclick="window.location.href='http://www.ProgrammingAdvices.com';">Visit Programming Advices</button>
+    </p>
+    <p>
+        <button onclick="window.open('http://www.ProgrammingAdvices.com','_blank');"> Visit Programming Advices</button>
+    </p>
+    <p>
+        <button onclick="window.open('http://ProgrammingAdvices.com', 'ProgrammingAdvices', 'width=800,height=600');"> Visit Programming Advices</button>
+    </p>
+
+    <p>Visit our
+        <a href="https://www.ProgrammingAdvices.com"
+        style="color:blue;"
+        onmouseover="this.style.color='red'"
+        onmouseout="this.style.color='blue'"
+        onmousedown="this.style.color='yellow'"
+        onmouseup="this.style.color='red'">Homepage</a>to learn more.
+    </p>
+    
+</body>
+</html>
