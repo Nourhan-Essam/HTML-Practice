@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video & Audio Example</title>
+</head>
+<body>
+    <p align="center">
+        <video controls width="640" height="360">
+            <source src="Download.mp4" type="video/mp4">
+            <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="subtitles_en.vtt" kind="subtitles" srclang="de" label="Deutsch">
+            Your browser does not support the video tag.
+        </video>
+    </p>
+    <p align="center">
+        <audio controls autoplay loop muted> 
+            <source src="https://pixabay.com/music/beats-medieval-short-music-extract-359781/" type="audio/ogg">
+            Your browser does not support the audio tag.
+        </audio>
+    </p>
+</body>
+</html>
